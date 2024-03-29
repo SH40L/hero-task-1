@@ -1,0 +1,238 @@
+/* Header style starts here */
+.header {
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-content {
+    padding: 200px;
+    text-align: right;
+    width: 550px;
+}
+
+.header-title {
+    color: white;
+    font-size: 65px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.header-description {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+/* Header style ends here */
+
+.primary-button {
+    font-size: 20px;
+    font-weight: 600;
+    color: #005FAC;
+    background-color: white;
+    padding: 20px 25px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 0px;
+}
+
+/* body */
+body {
+    margin: 0px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.failures-container {
+    display: flex;
+    gap: 80px;
+    width: 1140px;
+    align-items: center;
+    margin: 130px auto;
+}
+
+.failure-title,
+.plan-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+}
+
+.failure-description,
+.failure-list {
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+}
+
+/* from chatgpt */
+/* Define custom checkmark */
+.custom-checkmark::before {
+    content: '\2713';
+    /* Unicode checkmark character */
+    color: #16D887;
+    /* Custom color code */
+    font-weight: bold;
+    margin-right: 0.5em;
+    /* Adjust spacing between checkmark and text */
+}
+
+/* Style the unordered list */
+ul {
+    list-style: none;
+    /* Remove default bullet points */
+    padding-left: 0;
+    /* Remove default padding */
+    margin-top: 0;
+    /* Remove default margin */
+}
+
+/* Style list items */
+li {
+    margin-bottom: 0.5em;
+    /* Add spacing between list items */
+}
+
+/* from chatgpt */
+
+.plans {
+    text-align: center;
+    width: 1140px;
+    margin: 0px auto;
+}
+
+.plan-container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+
+}
+
+.plan-content {
+    text-align: center;
+}
+
+.plan-title{
+    margin-bottom: 50px;
+}
+
+.plain-icon {
+    margin-bottom: 24px;
+}
+
+.content-title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #151414;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.content-description {
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+    margin-top: 0px;
+}
+
+
+.banner{
+    background-image: url('/images/gradient1.png'), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1140px;
+    height: 300px;
+    display: flex;
+    margin: 130px auto;
+}
+
+.banner-content{
+    padding: 30px 70px;
+    width: 460px;
+}
+
+.banner-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 24px;
+}
+
+
+
+/* Footer starts here */
+
+.footer{
+    background-color: #151414;
+    height: 580px;
+}
+
+.footer-content{
+    display: flex;
+    width: 1140px;
+    margin: 0px auto;
+    padding-top: 130px;
+    justify-content: space-between;
+}
+
+.footer-left-col{
+    width: 485px;
+}
+
+.future-title{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.future-description, .future-email, .future-phone{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.social-media{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-right-col{
+    width: 325px;
+}
+
+.mailing-title{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+.mailing-mail {
+    font-size: 18px;
+    width: calc(100% - 42px); /* Adjust width */
+    color: #F3F3F3;
+    background-color: #151414;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+
+.subs-button{
+    background-color: #005FAC;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 35px;
+    border-radius: 5px;
+    border: none;
+}

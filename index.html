@@ -5,89 +5,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hero Task 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/task1.css">
 </head>
 
 <body>
-    <header>
-        <div>
-            <h2>All Thinks Are Possible If You believe</h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
-            <button>Contact Us</button>
+    <header class="header">
+        <div class="header-content">
+            <h2 class="header-title">All Thinks Are Possible If You believe</h2>
+            <p class="header-description">There are many variations of passages of Lorem Ipsum available, but the
+                majority have suffered alteration in some form, by injected humour, or randomised words</p>
+            <button class="primary-button">Contact Us</button>
         </div>
     </header>
 
     <main>
-        <div>
-            <section>
-                <img src="images/person.png" alt="Female Person">
+        <div class="failures-container">
+            <section class="failure-image">
+                <img src="images/person.png" alt="Female Person" width="560" height="720px">
             </section>
-            <section>
+            <section class="failure-content">
                 <div>
-                    <h3>My failures of previous year</h3>
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.</p>
-                    <ul>
-                        <li>Contrary to popular belief, is not simply.</li>
-                        <li>Contrary to popular belief.</li>
-                        <li>Contrary to popular , is not simply.</li>
-                        <li>Contrary to popular belief, is not simply.</li>
-                        <li>Contrary to popular simply.</li>      
+                    <h3 class="failure-title">My failures of previous year</h3>
+                    <p class="failure-description">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                        classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.</p>
+                    <ul class="failure-list">
+                        <li class="custom-checkmark">Contrary to popular belief, is not simply.</li>
+                        <li class="custom-checkmark">Contrary to popular belief.</li>
+                        <li class="custom-checkmark">Contrary to popular , is not simply.</li>
+                        <li class="custom-checkmark">Contrary to popular belief, is not simply.</li>
+                        <li class="custom-checkmark">Contrary to popular simply.</li>
                     </ul>
                 </div>
             </section>
         </div>
-        <div>
-            <h3>My Plans</h3>
-            <div>
-                <div>
-                    <img src="images/icons/web.png" alt="Web Dev">
-                    <h4>Web Development</h4>
-                    <p>I want to start</p>
+        <div class="plans">
+            <h3 class="plan-title">My Plans</h3>
+            <div class="plan-container">
+                <div class="plan-content">
+                    <img class="plain-icon" src="images/icons/web.png" alt="Web Dev">
+                    <h4 class="content-title">Web Development</h4>
+                    <p class="content-description">I want to start</p>
                 </div>
-                <div>
-                    <img src="images/icons/js.png" alt="Javascript">
-                    <h4>Javascript</h4>
-                    <p>I want to learn</p>
+                <div class="plan-content">
+                    <img class="plain-icon" src="images/icons/js.png" alt="Javascript">
+                    <h4 class="content-title">Javascript</h4>
+                    <p class="content-description">I want to learn</p>
                 </div>
-                <div>
-                    <img src="images/icons/smoke.png" alt="Smoking Habit">
-                    <h4>Smoking Habit</h4>
-                    <p>I want to end</p>
+                <div class="plan-content">
+                    <img class="plain-icon" src="images/icons/smoke.png" alt="Smoking Habit">
+                    <h4 class="content-title">Smoking Habit</h4>
+                    <p class="content-description">I want to end</p>
                 </div>
-                <div>
-                    <img src="images/icons/ecom.png" alt="ecommerce">
-                    <h4>ecommerce</h4>
-                    <p>I want to develop</p>
+                <div class="plan-content">
+                    <img class="plain-icon" src="images/icons/ecom.png" alt="ecommerce">
+                    <h4 class="content-title">ecommerce</h4>
+                    <p class="content-description">I want to develop</p>
                 </div>
             </div>
         </div>
-        <div>
-            <div>
-                <h3>Awlays keep a positive mindset</h3>
-                <button>Call Now</button>
+        <div class="banner">
+            <div class="banner-content">
+                <h3 class="banner-title">Awlays keep a positive mindset</h3>
+                <button class="primary-button">Call Now</button>
             </div>
         </div>
     </main>
 
-    <footer>
-        <div>
-            <section>
-                <div>
-                    <h3>Future</h3>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
-                    <p>Email : info@gmail.com</p>
-                    <p>Phone : 01500 00 00 00</p>
+    <footer class="footer">
+        <div class="footer-content">
+            <section class="footer-left-col">
+                <div class="future-details">
+                    <h3 class="future-title">Future</h3>
+                    <p class="future-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour, or randomised words</p>
+                    <p class="future-email">Email : info@gmail.com</p>
+                    <p class="future-phone">Phone : 01500 00 00 00</p>
                 </div>
-                <div>
-                    <img src="images/icons/fb.png" alt="facebook">
-                    <img src="images/icons/twitter.png" alt="twitter">
-                    <img src="images/icons/youtube.png" alt="youtube">
+                <div class="social-media">
+                    <a href="https://www.facebook.com/kazikazol10" target="_blank"><img src="images/icons/fb.png" alt="facebook"></a>
+                    <a href="https://twitter.com/kazikazol10" target="_blank"><img src="images/icons/twitter.png" alt="twitter"></a>
+                    <a href="https://www.youtube.com/watch?v=dZLfasMPOU4" target="_blank"><img src="images/icons/youtube.png" alt="youtube"></a>
                 </div>
             </section>
-            <section>
-                <div>
-                    <h3>Subscribe</h3>
-                    <input type="email" placeholder="Enter your email">
-                    <button>Subscribe</button>
+            <section class="footer-right-col">
+                <div class="mailing">
+                    <h3 class="mailing-title">Subscribe</h3>
+                    <input class="mailing-mail" type="email" placeholder="Enter your email"> <br>
+                    <button class="subs-button">Subscribe</button>
                 </div>
             </section>
         </div>
